@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @asifxquwwn on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7883214264))
+OWNER_ID = int(getenv("OWNER_ID", 8101810168))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BOSS_OF_BABUL")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+VHLrf5Nr1U1mZGJk")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BOT_OPERATION_XQUEEN")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BOT_OPERATION_XQUEEN")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/izedti.mp4"
+    "START_IMG_URL", "https://files.catbox.moe/d8i8xn.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/izedti.mp4"
+    "PING_IMG_URL", "https://files.catbox.moe/d8i8xn.mp4"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/uyz0yc.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/uyz0yc.jpg"
